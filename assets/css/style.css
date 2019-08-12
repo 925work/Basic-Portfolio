@@ -134,3 +134,20 @@ input[type=submit] {
     padding: 10px 25px 10px 25px;
     font-size: 13px;
 }
+
+.box {
+    height: 200px;
+    width: 240px;
+    background-color: #dddddd;
+    border: 1px solid #a0a0a0;
+}
+
+.example {
+    width: 100%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    padding: 1px 0px 1px 0px;
+    top: 125px;
+}
