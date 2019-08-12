@@ -4,7 +4,7 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: green;
+    background-image: url(../images/email-pattern.png);
     
 }
 section{
@@ -13,9 +13,19 @@ section{
     margin: auto;
     background-color: #ffffff;
     padding: 20px;
+    border: 2px solid #dddddd;
     
 }
 
+img{
+    float: left;
+    margin-right: 25px;
+}
+
+.headercontents{
+    width: 1000px;
+    margin:auto;
+}
 
 nav{
 float: right;
@@ -33,37 +43,45 @@ header{
     border-bottom: 2px;
     border-style: solid;
     border-color: #cccccc;
-
+    margin-bottom: 20px;
 }
 
 ul{
     margin:0px;
     padding:0px;
+}
 
+.borderli{
+    border-right: 1px solid #dddddd;
 }
 
 header li{
-    float: left;
     display: inline;
     padding: 0px 20px 0px 20px;
 }
 
 header a{
-    color: #777777;
+    color: #a0a0a0;
     text-decoration: none;
 }
 
 h1{
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 25px 5px 25px 5px;
+    padding: 25px 20px 25px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     margin: 0px;
+    position: relative;
+    top: -23px;
 }
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 5px;
+    margin:0 0 16px 0;
+    color:#4aaaa5;
 }
 
 footer{
@@ -78,5 +96,41 @@ footer{
     text-align: bottom;
     color: #cccccc; 
     font-size: 10px;
-    padding-top: 30px
+    padding-top: 30px;
+    position: fixed;
+    width: 100%;
+    left:0px;
+    bottom: 0px;
+}
+
+#name{
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+#email{
+    width: 97%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+#message{
+    width: 97%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 13px;
 }
