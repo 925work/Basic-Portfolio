@@ -14,7 +14,7 @@ section{
     background-color: #ffffff;
     padding: 20px;
     border: 2px solid #dddddd;
-    
+    height: 800px;
 }
 
 img{
@@ -101,6 +101,7 @@ footer{
     width: 100%;
     left:0px;
     bottom: 0px;
+    margin-top: 25px;
 }
 
 #name{
@@ -136,10 +137,12 @@ input[type=submit] {
 }
 
 .box {
-    height: 200px;
-    width: 240px;
+    height: 180px;
+    width: 225px;
     background-color: #dddddd;
     border: 1px solid #a0a0a0;
+    float: left;
+    margin: 5px;
 }
 
 .example {
@@ -150,4 +153,9 @@ input[type=submit] {
     position: relative;
     padding: 1px 0px 1px 0px;
     top: 125px;
+    text-decoration: none;
+}
+
+h3{
+    text-decoration: none;
 }
